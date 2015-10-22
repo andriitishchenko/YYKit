@@ -644,7 +644,7 @@ static NSTimeInterval _yy_CGImageSourceGetGIFFrameDelayAtIndex(CGImageSourceRef 
     }
     
     // iOS7 and above can use new func.
-    BOOL hasNewFunc = vImageBuffer_InitWithCGImage != NULL && vImageCreateCGImageFromBuffer != NULL;
+    BOOL hasNewFunc = &vImageBuffer_InitWithCGImage != NULL && &vImageCreateCGImageFromBuffer != NULL;
     BOOL hasBlur = blurRadius > __FLT_EPSILON__;
     BOOL hasSaturation = fabs(saturation - 1.0) > __FLT_EPSILON__;
     

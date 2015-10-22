@@ -27,6 +27,8 @@
 		4A31AB4B1AE65085006ADADD /* UIViewController+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A31AB491AE65085006ADADD /* UIViewController+YYAdd.h */; };
 		4A31AB4C1AE65085006ADADD /* UIViewController+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AB4A1AE65085006ADADD /* UIViewController+YYAdd.m */; };
 		4A31AB4D1AE65085006ADADD /* UIViewController+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AB4A1AE65085006ADADD /* UIViewController+YYAdd.m */; };
+		4A49B1E61BD8D5E0006BD130 /* NSUserDefaults+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A49B1E41BD8D5E0006BD130 /* NSUserDefaults+YYAdd.h */; settings = {ASSET_TAGS = (); }; };
+		4A49B1E71BD8D5E0006BD130 /* NSUserDefaults+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A49B1E51BD8D5E0006BD130 /* NSUserDefaults+YYAdd.m */; settings = {ASSET_TAGS = (); }; };
 		D90BD6FC191DEF50004AA3D9 /* YYKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D90BD6FA191DEF50004AA3D9 /* YYKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D90BD723191DEF61004AA3D9 /* NSObject+YYAddForARC.h in Headers */ = {isa = PBXBuildFile; fileRef = D90BD6FF191DEF61004AA3D9 /* NSObject+YYAddForARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D90BD724191DEF61004AA3D9 /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = D90BD700191DEF61004AA3D9 /* NSObject+YYAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -176,6 +178,8 @@
 		4A31AB451AE64571006ADADD /* NSIndexPath+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+YYAdd.m"; sourceTree = "<group>"; };
 		4A31AB491AE65085006ADADD /* UIViewController+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YYAdd.h"; sourceTree = "<group>"; };
 		4A31AB4A1AE65085006ADADD /* UIViewController+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YYAdd.m"; sourceTree = "<group>"; };
+		4A49B1E41BD8D5E0006BD130 /* NSUserDefaults+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+YYAdd.h"; sourceTree = "<group>"; };
+		4A49B1E51BD8D5E0006BD130 /* NSUserDefaults+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+YYAdd.m"; sourceTree = "<group>"; };
 		D90BD6E1191DE9CB004AA3D9 /* YYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D90BD6E5191DE9CB004AA3D9 /* YYKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YYKit-Info.plist"; sourceTree = "<group>"; };
 		D90BD6FA191DEF50004AA3D9 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
@@ -399,6 +403,8 @@
 		D9A95DB6191F4A5800B1DE28 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				4A49B1E41BD8D5E0006BD130 /* NSUserDefaults+YYAdd.h */,
+				4A49B1E51BD8D5E0006BD130 /* NSUserDefaults+YYAdd.m */,
 				D95BD88B19E5732D0001BAA3 /* NSObject+YYAdd.h */,
 				D95BD88C19E5732D0001BAA3 /* NSObject+YYAdd.m */,
 				D992B65D19EE4487006E0ADE /* NSObject+YYAddForKVO.h */,
@@ -537,6 +543,7 @@
 				D965FA6019D86F8900C16572 /* YYProcessStatus.h in Headers */,
 				D9CBD73919FC26CA0041EA1F /* YYGestureRecognizer.h in Headers */,
 				D93E171F19F65143003C3FB4 /* YYThreadSafeArray.h in Headers */,
+				4A49B1E61BD8D5E0006BD130 /* NSUserDefaults+YYAdd.h in Headers */,
 				D90BD743191DEF61004AA3D9 /* UIApplication+YYAdd.h in Headers */,
 				D9A91A8319FF4B0F00ACD051 /* NSCharacterSet+YYAdd.h in Headers */,
 				D9CBD7B119FD5F0F0041EA1F /* YYTextDefine.h in Headers */,
@@ -592,7 +599,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = YY;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ibireme;
 				TargetAttributes = {
 					D9A629B51A061EC100D8D3E5 = {
@@ -666,6 +673,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90BD724191DEF61004AA3D9 /* NSObject+YYAddForARC.m in Sources */,
+				4A49B1E71BD8D5E0006BD130 /* NSUserDefaults+YYAdd.m in Sources */,
 				D90BD73C191DEF61004AA3D9 /* UIScrollView+YYAdd.m in Sources */,
 				D9C9FEE419F3AFCB00B20F09 /* YYAnimatedImageView.m in Sources */,
 				D992B63619EBDAE5006E0ADE /* UIGestureRecognizer+YYAdd.m in Sources */,
@@ -785,6 +793,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -853,6 +862,7 @@
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = mh_object;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
@@ -876,6 +886,7 @@
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = mh_object;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibireme.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";

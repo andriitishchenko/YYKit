@@ -7,7 +7,7 @@
 //
 
 /**
- YYKit version 0.2.2.1
+ YYKit version 0.2.2.2
  https://github.com/ibireme/YYKit
  */
 
@@ -33,6 +33,7 @@
 #import <YYKit/NSTimer+YYAdd.h>
 #import <YYKit/NSBundle+YYAdd.h>
 #import <YYKit/NSIndexPath+YYAdd.h>
+#import <YYKit/NSUserDefaults+YYAdd.h>
 // UIKit
 #import <YYKit/UIColor+YYAdd.h>
 #import <YYKit/UIImage+YYAdd.h>
